@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class KeyboardInput {
+    public static void main(String[] args) {
+
+
+        System.out.println(10.0 / 2.0);
+        Scanner keyboard = new Scanner(System.in);
+        String color;
+        System.out.println("What color is this flower?");
+        color = keyboard.nextLine();
+        System.out.println("So it's " +   color);
+        int age;
+        System.out.println("How old are you?");
+        age = keyboard.nextInt();
+        keyboard.nextLine();
+        System.out.println("And where do you live?");
+        String home;
+        home = keyboard.nextLine();
+        System.out.println("So you are " + age);
+        System.out.println("And you live in " + home);
+        System.out.println("correct?");
+        //example1//
+        /*example2*/
