@@ -7,7 +7,53 @@ public class KeyboardInput {
         System.out.println("What color is this flower?");
         color = keyboard.nextLine();
         System.out.println("So it's " +   color);
+        String color2;
+        System.out.println("And what is your favorite color?");
+        color2 = keyboard.nextLine();
+        System.out.println("Then try to pretend the flower is  " +   color2);
+        System.out.println("How many flowers do you need?");
+        String flower;
+        flower = keyboard.nextLine();
+        System.out.println("Ok I will give you");
+        System.out.println(flower);
+        System.out.println("flowers");
+        System.out.println("Here you go");
+        String candy; //Please type in only flavors
+        System.out.println("By the way do you want any candy? I have some. What flavor do you want?");
+        candy = keyboard.nextLine();
+        System.out.println("Here is some candy with " + candy);
+        System.out.println("flavor");
+        System.out.println("Do you mind telling me about yourself? What is you name?");
+        String yourname;
+        yourname = keyboard.nextLine();
+        System.out.println("So your name is " +  yourname);
+        System.out.println("That is nice. Can you guess my name?");
+        String myname;
+        myname = keyboard.nextLine();
+        System.out.println(myname + "is a nice name, but no. My name is G̸̦̰̳̺͚͙̯͔̠̠̪̩̘̯̖̺̣̱̲͓̤̑̃̃͒̐̈̎͊͐̏̉̂̃̉͛̓̕̕ͅͅL̷̀̌́̿͆̃");
+        int age;
+        System.out.println("How old are you?");
+        age = keyboard.nextInt();
+        keyboard.nextLine();
+        System.out.println("And where do you live?");
+        String home;
+        home = keyboard.nextLine();
+        System.out.println("So you are " + age);
+        System.out.println("And you live in " + home);
+        System.out.println("correct?");
+        System.out.println("What is you pet's name? My pet's name is Arslan. He is a Homo Sapiens. What about your pet?"); //pretend you have a pet
+        String pet;
+        pet = keyboard.nextLine();
+        System.out.println("I think " + pet );
+        System.out.println("Is a nice name");
+        
+        String place;
+        System.out.println("Where are you going next?");
+        place = keyboard.nextLine();
+        System.out.println("I wish you good luck no matter where you go :).");
+
+
+
     }
 }
-//comment type 1
-/*comment type 2*/
+/*Why does it look like a dating sim so much? I hate it but I also love it*/
