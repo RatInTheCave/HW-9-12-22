@@ -30,7 +30,7 @@ public class KeyboardInput {
         System.out.println("That is nice. Can you guess my name?");
         String myname;
         myname = keyboard.nextLine();
-        System.out.println(myname + "is a nice name, but no. My name is G̸̦̰̳̺͚͙̯͔̠̠̪̩̘̯̖̺̣̱̲͓̤̑̃̃͒̐̈̎͊͐̏̉̂̃̉͛̓̕̕ͅͅL̷̀̌́̿͆̃");
+        System.out.println(myname + "is a nice name, but no. My name is [ACCESS DENIED]);
         int age;
         System.out.println("How old are you?");
         age = keyboard.nextInt();
@@ -41,7 +41,7 @@ public class KeyboardInput {
         System.out.println("So you are " + age);
         System.out.println("And you live in " + home);
         System.out.println("correct?");
-        System.out.println("What is you pet's name? My pet's name is Arslan. He is a Homo Sapiens. What about your pet?"); //pretend you have a pet
+        System.out.println("What is you pet's name? My pet's name is Arslan. He is a human. What about your pet?"); //pretend you have a pet
         String pet;
         pet = keyboard.nextLine();
         System.out.println("I think " + pet );
